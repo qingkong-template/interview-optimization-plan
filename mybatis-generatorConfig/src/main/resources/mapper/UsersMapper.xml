@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.zr.mapper.UsersMapper" >
+  <resultMap id="BaseResultMap" type="com.zr.pojo.Users" >
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="user_id" property="userId" jdbcType="VARCHAR" />
+    <result column="user_name" property="userName" jdbcType="VARCHAR" />
+    <result column="user_age" property="userAge" jdbcType="INTEGER" />
+    <result column="user_birthday" property="userBirthday" jdbcType="DATE" />
+    <result column="id_card" property="idCard" jdbcType="VARCHAR" />
+    <result column="sex" property="sex" jdbcType="INTEGER" />
+    <result column="phone" property="phone" jdbcType="CHAR" />
+    <result column="mailbox" property="mailbox" jdbcType="VARCHAR" />
+    <result column="create_time" property="createTime" jdbcType="DATE" />
+    <result column="update_time" property="updateTime" jdbcType="DATE" />
+    <result column="post" property="post" jdbcType="VARCHAR" />
+  </resultMap>
+</mapper>
